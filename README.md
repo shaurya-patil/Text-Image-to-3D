@@ -35,9 +35,9 @@ This project allows you to generate **3D models from either a text prompt or a 2
 3. *(Optional but recommended)* Create a virtual environment:
 
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # on Linux/Mac
-   venv\Scripts\activate     # on Windows
+   python -m venv 3D_Model
+   source 3D_Model/bin/activate  # on Linux/Mac
+   3D_Model\Scripts\activate     # on Windows
    ```
 
 
