@@ -71,6 +71,12 @@ Ensure `input.jpg` is a valid image in the working directory.
 python display_model.py output.obj
 ```
 
+## Output
+### Text to 3D
+(text-to-3D.gif?raw=true "Text To 3D")
+### Image to 3D
+(image-to-3D.gif?raw=true "Image To 3D")
+
 You can also run this inside a Jupyter notebook if you're using a 3D viewer like `trimesh`, `vedo`, or `pythreejs`.
 
 
