@@ -87,6 +87,8 @@ These are specified in `requirements.txt`, but key libraries include:
 * `accelerate`
 
 
-## ⚠️ TripoSR Note
+## ⚠️ Note
 
-**TripoSR** was considered for this project but is currently not compatible with this pipeline-based approach. It is primarily designed as an **online web application** rather than a programmatic, local-use library, which limits integration and reproducibility in automated workflows.
+TripoSR was considered for this project but is currently not compatible with this pipeline-based approach. It is primarily designed as an online web application, not a programmatic, local-use library.
+
+The 2D-to-3D models generated using shap-e or intel/dpt-large are basic and not highly detailed. For high-fidelity and photorealistic 3D outputs, more GPU-intensive solutions like TripoSR or DreamFusion are recommended.
