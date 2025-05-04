@@ -73,9 +73,9 @@ python display_model.py output.obj
 
 ## Output
 ### Text to 3D
-(text-to-3D.gif?raw=true "Text To 3D")
+![Output](https://github.com/shaurya-patil/Text-Image-to-3D/blob/main/text-to-3d.gif?raw=true)
 ### Image to 3D
-(image-to-3D.gif?raw=true "Image To 3D")
+![Output](https://github.com/shaurya-patil/Text-Image-to-3D/blob/main/image-to-3d.gif?raw=true)
 
 You can also run this inside a Jupyter notebook if you're using a 3D viewer like `trimesh`, `vedo`, or `pythreejs`.
 
