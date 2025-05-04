@@ -10,7 +10,7 @@ if choice=='1':
     print(f"Faces: {len(mesh.faces)}")
     mesh.show()
 if choice=='2':
-    main.image_to_3d_model("input_image.jpg")
+    main.image_to_3d_model("sedan.png")
     mesh = trimesh.load("output_from_image.obj")
     mesh = trimesh.smoothing.filter_laplacian(mesh)
     print(f"Vertices: {len(mesh.vertices)}")
