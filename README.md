@@ -22,8 +22,8 @@ This project allows you to generate **3D models from either a text prompt or a 2
 1. **Clone the repo:**
 
    ```bash
-   git clone https://github.com/your-username/3d-generator.git
-   cd 3d-generator
+   git clone https://github.com/shaurya-patil/Text-Image-to-3D.git
+   cd Text-Image-to-3D
    ```
 
 2. **Install dependencies:**
