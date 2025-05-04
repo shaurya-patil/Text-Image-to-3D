@@ -48,7 +48,7 @@ This project allows you to generate **3D models from either a text prompt or a 2
 ```python
 from main import text_to_3d_model
 
-text_to_3d_model("a futuristic space car")
+text_to_3d_model("an ergonomic design of a chair")
 ```
 
 This will save a 3D model as `output.obj`.
@@ -59,10 +59,10 @@ This will save a 3D model as `output.obj`.
 ```python
 from main import image_to_3d_model
 
-image_to_3d_model("input.jpg", "output_from_image.obj")
+image_to_3d_model("input_image.jpg", "output_from_image.obj")
 ```
 
-Ensure `input.jpg` is a valid image in the working directory.
+Ensure `input_image.jpg` is a valid image in the working directory.
 
 
 ### Visualize the Model
