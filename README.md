@@ -73,9 +73,18 @@ python display_model.py output.obj
 
 ## Output
 ### Text to 3D
-![Output](https://github.com/shaurya-patil/Text-Image-to-3D/blob/main/assets/text-to-3d.gif?raw=true)
+#### Input: "Chair"
+![Output](https://github.com/shaurya-patil/Text-Image-to-3D/blob/main/assets/chair-text-output.gif)
+#### Input: "White Football"
+![Output](https://github.com/shaurya-patil/Text-Image-to-3D/blob/main/assets/football-text-output.gif)
+#### Input: "Toy Car"
+![Output](https://github.com/shaurya-patil/Text-Image-to-3D/blob/main/assets/toy-car-text-output.gif)
+
 ### Image to 3D
-![Output](https://github.com/shaurya-patil/Text-Image-to-3D/blob/main/assets/image-to-3d.gif?raw=true)
+#### Input: sedan.jpg
+![Output](https://github.com/shaurya-patil/Text-Image-to-3D/blob/main/assets/sedan-image-output.gif)
+#### Input: man.jpg
+![Output](https://github.com/shaurya-patil/Text-Image-to-3D/blob/main/assets/man-image-output.gif)
 
 You can also run this inside a Jupyter notebook if you're using a 3D viewer like `trimesh`, `vedo`, or `pythreejs`.
 
