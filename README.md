@@ -43,26 +43,54 @@ This project allows you to generate **3D models from either a text prompt or a 2
 
 ## 🧠 Usage
 
-### Generate 3D Model from Text Prompt
+Run the main script to launch the CLI:
 
-```python
-from main import text_to_3d_model
-
-text_to_3d_model("an ergonomic design of a chair")
+```bash
+python main.py
 ```
 
-This will save a 3D model as `output.obj`.
+You will be prompted to choose an input method:
 
-
-### Generate 3D Model from Image
-
-```python
-from main import image_to_3d_model
-
-image_to_3d_model("input_image.jpg", "output_from_image.obj")
+```
+Choose an option:
+1. Text-to-3D
+2. Image-to-3D
 ```
 
-Ensure `input_image.jpg` is a valid image in the working directory.
+---
+
+### 📝 Option 1: Text-to-3D
+
+* After selecting `1`, you'll be asked to enter a text prompt.
+* Example:
+
+```
+Enter prompt: an ergonomic design of a chair
+```
+
+* The generated 3D model will be saved as:
+
+```
+output.obj
+```
+
+---
+
+### 🖼️ Option 2: Image-to-3D
+
+* After selecting `2`, the tool will use the image specified in `display_model.py` (e.g., `input_image.jpg`).
+* The 3D model will be saved as:
+
+```
+output_from_image.obj
+```
+
+> 📌 **Note:** Ensure the input image file exists and the path is correctly defined in `display_model.py`.
+
+---
+
+Let me know if you'd like to add sections for installation, environment setup, or examples with screenshots or renders.
+
 
 
 ### Visualize the Model
